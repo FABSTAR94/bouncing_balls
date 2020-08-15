@@ -35,7 +35,7 @@ body {
     background-color: yellow;
     position: relative;
     animation-name: secondBall;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 .ball3 {
@@ -96,7 +96,7 @@ body {
   background-color: pink;
   position: relative;
   animation-name: eightBall;
-  animation-duration: 5s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
 }
 .ball9 {
@@ -106,7 +106,7 @@ body {
   background-color: brown;
   position: relative;
   animation-name: ninethBall;
-  animation-duration: 6s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
@@ -128,7 +128,7 @@ body {
   background-color: violet;
   position: relative;
   animation-name: elleventhBall;
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 
@@ -146,50 +146,51 @@ body {
 
 /* y axis */
 @keyframes firstBall {
-    0%   {background-color:gray; top: 0px; }
-    25%  {background-color:purple; top: 100vh; }
-    50%  {background-color:blue; top: 0px; } 
-    75%  {background-color:green; top: 100vh; }
-    100% {background-color:gray; top: 0px; }
+    0%   {background-color:gray; left: 0px; top: 0px; }
+    25%  {background-color:purple; left: 500px; top: 0px; }
+    50%  {background-color:blue; left: 0px; top: 0px; }  
+    75%  {background-color:green; left: 500px; top: 0px; }
+    100% {background-color:gray; top: 0px; top:0px;} 
+  }
+ 
+  @keyframes secondBall {
+    0%   {background-color:yellow;  left: 0px; top: 0px; }
+    25%  {background-color:red; left: 500px; top: 0px; }
+    50%  {background-color:purple; left: 0px; top: 0px; } 
+    75%  {background-color: pink; left: 500px; top: 0px; }
+    100% {background-color: yellow; left: 0px; top: 0px; }
+  } 
+  @keyframes thirdBall {
+    0%   {background-color:purple;  left: 0px; top: 0px;}
+    25%  {background-color:pink; left: 500px; top: 0px; }
+    50%  {background-color:red; left: 0px; top: 0px; } 
+    75%  {background-color:orange; left: 500px; top: 0px; }
+    100% {background-color: purple; left: 0px; top: 0px; }
   }
 
-  @keyframes secondBall {
-    0%   {background-color:yellow;  top: -5px; left: 10vh;}
-    25%  {background-color:red; top: 100vh; left: 10vh; }
-    50%  {background-color:purple; top: -5px; left: 10vh; } 
-    75%  {background-color: pink; top: 100vh; left: 10vh; }
-    100% {background-color: yellow; top: -5px; left: 10vh; }
-  }
-  @keyframes thirdBall {
-    0%   {background-color:purple;  top: -5px; left: 20vh;}
-    25%  {background-color:pink; top: 100vh; left: 20vh; }
-    50%  {background-color:red; top: -5px; left: 20vh; } 
-    75%  {background-color:orange; top: 100vh; left: 20vh; }
-    100% {background-color: purple; top: -5px; left: 20vh; }
-  }
   @keyframes fourthBall {
-    0%   {background-color:green;  top: -5px; left: 30vh;}
-    25%  {background-color:blue; top: 100vh; left: 30vh; }
-    50%  {background-color: gray; top: -5px; left: 30vh; } 
-    75%  {background-color: yellow; top: 100vh; left: 30vh; }
-    100% {background-color: green; top: -5px; left: 30vh; }
+    0%   {background-color:green;  left: 0px; top: 0px;}
+    25%  {background-color:blue; left: 500px; top: 0px; }
+    50%  {background-color: gray; left: 0px; top: 0px; } 
+    75%  {background-color: yellow; left: 500px; top: 0px; }
+    100% {background-color: green; left: 0px; top: 0px; }
   }
   
   @keyframes fifthBall {
-    0%   {background-color:red;  top: -5px; left: 40vh;}
-    25%  {background-color:green; top: 100vh; left: 40vh; }
-    50%  {background-color: pink; top: -5px; left: 40vh; } 
-    75%  {background-color: gray; top: 100vh; left: 40vh; }
-    100% {background-color: red; top: -5px; left: 40vh; }
+    0%   {background-color:red;  left: 0px; top: 0px;}
+    25%  {background-color:green; left: 500px; top: 0px; }
+    50%  {background-color: pink; left: 0px; top: 0px; } 
+    75%  {background-color: gray; left: 500px; top: 0px; }
+    100% {background-color: red; left: 0px; top: 0px; }
   }
   
   @keyframes sixthBall {
-    0%   {background-color:orange;  top: -5px; left: 50vh;}
-    25%  {background-color:yellow; top: 100vh; left: 50vh; }
-    50%  {background-color: gray; top: -5px; left: 50vh; } 
-    75%  {background-color: red; top: 100vh; left: 50vh; }
-    100% {background-color: orange; top: -5px; left: 50vh; }
-  }
+    0%   {background-color:orange;  left: 0px; top: 0px;}
+    25%  {background-color:yellow; left: 500px; top: 0px; }
+    50%  {background-color: gray; left: 0px; top: 0px; } 
+    75%  {background-color: red; left: 500px; top: 0px; }
+    100% {background-color: orange; left: 0px; top: 0px; }
+  } 
   /* x axis */
   @keyframes seventhBall {
     0%   {background-color:blue;  left: 171vh; top: -20px;}
