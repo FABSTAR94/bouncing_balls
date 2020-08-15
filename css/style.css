@@ -25,7 +25,7 @@ body {
         background-color: gray;
         position: relative;
         animation-name: firstBall;
-        animation-duration: 5s;
+        animation-duration: 4s;
         animation-iteration-count: infinite;
 }
 .ball2 {
@@ -35,7 +35,7 @@ body {
     background-color: yellow;
     position: relative;
     animation-name: secondBall;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 .ball3 {
@@ -45,7 +45,7 @@ body {
     background-color: purple;
     position: relative;
     animation-name: thirdBall;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 .ball4 {
@@ -55,7 +55,7 @@ body {
     background-color: green;
     position: relative;
     animation-name: fourthBall;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 .ball5 {
@@ -65,7 +65,7 @@ body {
   background-color: red;
   position: relative;
   animation-name: fifthBall;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 .ball6 {
@@ -85,9 +85,66 @@ body {
   background-color: blue;
   position: relative;
   animation-name: seventhBall;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.ball8 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: pink;
+  position: relative;
+  animation-name: eightBall;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
+.ball9 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: brown;
+  position: relative;
+  animation-name: ninethBall;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.ball10 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: green;
+  position: relative;
+  animation-name: tenthBall;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.ball11 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: violet;
+  position: relative;
+  animation-name: elleventhBall;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+.ball12 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: olive;
+  position: relative;
+  animation-name: twelfthBall;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/* y axis */
 @keyframes firstBall {
     0%   {background-color:gray; top: 0px; }
     25%  {background-color:purple; top: 100vh; }
@@ -133,11 +190,47 @@ body {
     75%  {background-color: red; top: 100vh; left: 50vh; }
     100% {background-color: orange; top: -5px; left: 50vh; }
   }
-  
+  /* x axis */
   @keyframes seventhBall {
     0%   {background-color:blue;  left: 171vh; top: -20px;}
     25%  {background-color: gray; left: 80vh; top: -20px;}
     50%  {background-color: pink; left: 171vh; top: -20px;} 
     75%  {background-color: red; left: 80vh; top: -20px;}
     100% {background-color: blue; left: 171vh; top:-20px; }  
+  }
+  @keyframes eightBall {
+    0%   {background-color:pink;  left: 171vh; top:-220px}
+    25%  {background-color: gray; left: 80vh; top:-220px}
+    50%  {background-color: brown; left: 171vh; top:-220px} 
+    75%  {background-color: green; left: 80vh; top:-220px }
+    100% {background-color: pink; left: 171vh; top:-220px }  
+  }
+  @keyframes ninethBall {
+    0%   {background-color:brown;  left: 171vh; top:-420px}
+    25%  {background-color: purple; left: 80vh; top:-420px}
+    50%  {background-color: green; left: 171vh; top:-420px} 
+    75%  {background-color: blue; left: 80vh; top:-420px }
+    100% {background-color: brown; left: 171vh; top:-420px }  
+  }
+  @keyframes tenthBall {
+    0%   {background-color:green;  left: 171vh; top:-620px}
+    25%  {background-color: pink; left: 80vh; top:-620px}
+    50%  {background-color: yellow; left: 171vh; top:-620px} 
+    75%  {background-color: violet; left: 80vh; top:-620px }
+    100% {background-color: green; left: 171vh; top:-620px }  
+  }
+  @keyframes elleventhBall {
+    0%   {background-color:violet;  left: 171vh; top:-820px}
+    25%  {background-color: olive; left: 80vh; top:-820px}
+    50%  {background-color: teal; left: 171vh; top:-820px} 
+    75%  {background-color: darkturquoise; left: 80vh; top:-820px}
+    100% {background-color: violet; left: 171vh; top:-820px}  
+  }
+
+  @keyframes twelfthBall {
+    0%   {background-color:olive;  left: 171vh; top:-1020px}
+    25%  {background-color: violet; left: 80vh; top:-1020px}
+    50%  {background-color: teal; left: 171vh; top:-1020px} 
+    75%  {background-color: darkturquoise; left: 80vh; top:-1020px}
+    100% {background-color: olive; left: 171vh; top:-1020px}  
   }
