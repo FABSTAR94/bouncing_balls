@@ -12,6 +12,16 @@ body {
     color: white;
 } */
 
+
+#balls {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  visibility: hidden;
+}
+
+
+
 .bgc {
     width: 100%;
     height: 100vh;
@@ -146,24 +156,24 @@ body {
 
 /* y axis */
 @keyframes firstBall {
-    0%   {background-color:gray; left: 0px; top: 0px; }
+    0%   {background-color:purple; left: 0px; top: 0px; }
     25%  {background-color:purple; left: 500px; top: 0px; }
-    50%  {background-color:blue; left: 0px; top: 0px; }  
+    50%  {background-color:blue; left: 0px; top: 0px; }
     75%  {background-color:green; left: 500px; top: 0px; }
-    100% {background-color:gray; top: 0px; top:0px;} 
+    100% {background-color:gray; top: 0px; top:0px;}
   }
- 
+
   @keyframes secondBall {
     0%   {background-color:yellow;  left: 0px; top: 0px; }
     25%  {background-color:red; left: 500px; top: 0px; }
-    50%  {background-color:purple; left: 0px; top: 0px; } 
+    50%  {background-color:purple; left: 0px; top: 0px; }
     75%  {background-color: pink; left: 500px; top: 0px; }
     100% {background-color: yellow; left: 0px; top: 0px; }
-  } 
+  }
   @keyframes thirdBall {
     0%   {background-color:purple;  left: 0px; top: 0px;}
     25%  {background-color:pink; left: 500px; top: 0px; }
-    50%  {background-color:red; left: 0px; top: 0px; } 
+    50%  {background-color:red; left: 0px; top: 0px; }
     75%  {background-color:orange; left: 500px; top: 0px; }
     100% {background-color: purple; left: 0px; top: 0px; }
   }
@@ -171,67 +181,67 @@ body {
   @keyframes fourthBall {
     0%   {background-color:green;  left: 0px; top: 0px;}
     25%  {background-color:blue; left: 500px; top: 0px; }
-    50%  {background-color: gray; left: 0px; top: 0px; } 
+    50%  {background-color: gray; left: 0px; top: 0px; }
     75%  {background-color: yellow; left: 500px; top: 0px; }
     100% {background-color: green; left: 0px; top: 0px; }
   }
-  
+
   @keyframes fifthBall {
     0%   {background-color:red;  left: 0px; top: 0px;}
     25%  {background-color:green; left: 500px; top: 0px; }
-    50%  {background-color: pink; left: 0px; top: 0px; } 
+    50%  {background-color: pink; left: 0px; top: 0px; }
     75%  {background-color: gray; left: 500px; top: 0px; }
     100% {background-color: red; left: 0px; top: 0px; }
   }
-  
+
   @keyframes sixthBall {
     0%   {background-color:orange;  left: 0px; top: 0px;}
     25%  {background-color:yellow; left: 500px; top: 0px; }
-    50%  {background-color: gray; left: 0px; top: 0px; } 
+    50%  {background-color: gray; left: 0px; top: 0px; }
     75%  {background-color: red; left: 500px; top: 0px; }
     100% {background-color: orange; left: 0px; top: 0px; }
-  } 
+  }
   /* x axis */
   @keyframes seventhBall {
     0%   {background-color:blue;  left: 171vh; top: -20px;}
     25%  {background-color: gray; left: 80vh; top: -20px;}
-    50%  {background-color: pink; left: 171vh; top: -20px;} 
+    50%  {background-color: pink; left: 171vh; top: -20px;}
     75%  {background-color: red; left: 80vh; top: -20px;}
-    100% {background-color: blue; left: 171vh; top:-20px; }  
+    100% {background-color: blue; left: 171vh; top:-20px; }
   }
   @keyframes eightBall {
     0%   {background-color:pink;  left: 171vh; top:-220px}
     25%  {background-color: gray; left: 80vh; top:-220px}
-    50%  {background-color: brown; left: 171vh; top:-220px} 
+    50%  {background-color: brown; left: 171vh; top:-220px}
     75%  {background-color: green; left: 80vh; top:-220px }
-    100% {background-color: pink; left: 171vh; top:-220px }  
+    100% {background-color: pink; left: 171vh; top:-220px }
   }
   @keyframes ninethBall {
     0%   {background-color:brown;  left: 171vh; top:-420px}
     25%  {background-color: purple; left: 80vh; top:-420px}
-    50%  {background-color: green; left: 171vh; top:-420px} 
+    50%  {background-color: green; left: 171vh; top:-420px}
     75%  {background-color: blue; left: 80vh; top:-420px }
-    100% {background-color: brown; left: 171vh; top:-420px }  
+    100% {background-color: brown; left: 171vh; top:-420px }
   }
   @keyframes tenthBall {
     0%   {background-color:green;  left: 171vh; top:-620px}
     25%  {background-color: pink; left: 80vh; top:-620px}
-    50%  {background-color: yellow; left: 171vh; top:-620px} 
+    50%  {background-color: yellow; left: 171vh; top:-620px}
     75%  {background-color: violet; left: 80vh; top:-620px }
-    100% {background-color: green; left: 171vh; top:-620px }  
+    100% {background-color: green; left: 171vh; top:-620px }
   }
   @keyframes elleventhBall {
     0%   {background-color:violet;  left: 171vh; top:-820px}
     25%  {background-color: olive; left: 80vh; top:-820px}
-    50%  {background-color: teal; left: 171vh; top:-820px} 
+    50%  {background-color: teal; left: 171vh; top:-820px}
     75%  {background-color: darkturquoise; left: 80vh; top:-820px}
-    100% {background-color: violet; left: 171vh; top:-820px}  
+    100% {background-color: violet; left: 171vh; top:-820px}
   }
 
   @keyframes twelfthBall {
     0%   {background-color:olive;  left: 171vh; top:-1020px}
     25%  {background-color: violet; left: 80vh; top:-1020px}
-    50%  {background-color: teal; left: 171vh; top:-1020px} 
+    50%  {background-color: teal; left: 171vh; top:-1020px}
     75%  {background-color: darkturquoise; left: 80vh; top:-1020px}
-    100% {background-color: olive; left: 171vh; top:-1020px}  
+    100% {background-color: olive; left: 171vh; top:-1020px}
   }

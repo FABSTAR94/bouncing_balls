@@ -5,9 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Bouncing Balls Animation</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script>function myFunction() {
+          document.getElementById('balls').style["visibility"] = "visible";
+        }</script>
     </head>
 
     <body>
+      <div><button onClick="myFunction()">Start</button></div>
+      <div id="balls">
         <div class="bgc">
         <!-- <h1>Bouncing Balls Animation</h1> -->
         <div class="ball1"></div>
@@ -23,5 +28,7 @@
         <div class="ball11"></div>
         <div class="ball12"></div>
     </div>
+    </div>
+
     </body>
 </html>
