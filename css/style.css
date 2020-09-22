@@ -4,6 +4,11 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
+    background-image: url("https://www.wallpaperflare.com/static/852/932/881/colorful-abstract-spiral-circle-wallpaper.jpg");
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+     height: 100%;
   }
 
 /* h1 {
@@ -30,7 +35,7 @@ body {
   visibility: visible;
   margin: 0px -50px;
   position: absolute;
-  top: 50%;
+  top: 49%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   background: linear-gradient(105deg, #f6d365, #fda085, #f6d365, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
@@ -40,8 +45,8 @@ body {
   -o-animation: rainbow 5s ease infinite;
   animation: rainbow 5s ease infinite alternate;
   border: 0;
-  padding: 25px;
-  font-size: 40px;
+      padding: 5px 20px;
+    font-size: 28px;
   color: #fff;
   cursor: pointer;
 }
@@ -68,7 +73,7 @@ body {
 .bgc {
     width: 100%;
     height: 100vh;
-    background-color: #fff;
+    background-color: #000;
   }
 
 .ball1 {
